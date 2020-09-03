@@ -35,6 +35,7 @@ reg  [DATA_WIDTH-1:0] x12;
 reg  [DATA_WIDTH-1:0] x13;
 reg  [DATA_WIDTH-1:0] x14;
 reg  [DATA_WIDTH-1:0] x15;
+
 reg  [DATA_WIDTH-1:0] y0;
 reg  [DATA_WIDTH-1:0] y1;
 reg  [DATA_WIDTH-1:0] y2;
@@ -51,6 +52,7 @@ reg  [DATA_WIDTH-1:0] y12;
 reg  [DATA_WIDTH-1:0] y13;
 reg  [DATA_WIDTH-1:0] y14;
 reg  [DATA_WIDTH-1:0] y15;
+
 reg  [DATA_WIDTH-1:0] z0;
 reg  [DATA_WIDTH-1:0] z1;
 reg  [DATA_WIDTH-1:0] z2;
@@ -132,7 +134,7 @@ begin
             end
 end
 
-//level2
+//level 2
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -157,7 +159,7 @@ begin
             end
 end
 
-//level3
+//level 3
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -182,7 +184,7 @@ begin
             end
 end            
   
-//level4
+//level 4
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -207,7 +209,7 @@ begin
             end
 end 
 
-//level5
+//level 5
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -232,7 +234,7 @@ begin
             end
 end 
 
-//level6
+//level 6
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -257,7 +259,7 @@ begin
             end
 end 
 
-//level7
+//level 7
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -282,7 +284,7 @@ begin
             end
 end 
 
-//level8
+//level 8
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -307,7 +309,7 @@ begin
             end
 end 
 
-//level9
+//level 9
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -332,7 +334,7 @@ begin
             end
 end 
 
-//level0
+//level 10
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -357,7 +359,7 @@ begin
             end
 end 
 
-//level11
+//level 11
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -382,7 +384,7 @@ begin
             end
 end 
 
-//level2
+//level 12
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -407,7 +409,7 @@ begin
             end
 end 
 
-//level3
+//level 13
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
@@ -432,7 +434,7 @@ begin
             end
 end 
 
-//level4
+//level 14
 always @(posedge clk or negedge rst_n)
 begin
    if(!rst_n)
